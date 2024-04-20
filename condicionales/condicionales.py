@@ -31,14 +31,33 @@
 '''hacer un programa que pida dos numeros y se de cuenta cual de ellos es par, o si ambos sos '''
 
 
-num1 = int(input("ingrese un mumero: "))
-num2 = int(input("ingrese un segundo numero: "))
+# num1 = int(input("ingrese un mumero: "))
+# num2 = int(input("ingrese un segundo numero: "))
 
-if num1%2 == 0 and num2%2 == 0:
-    print("ambos son pares")
-elif num1%2 == 0 and num2%2!=0:
-    (f"{num1} es par")
-elif num1%2!=0 and num2%2 == 0:
-    print(f"{num2} es par")
-else:
-    print("ambos son impares")
+# if num1%2 == 0 and num2%2 == 0:
+#     print("ambos son pares")
+# elif num1%2 == 0 and num2%2!=0:
+#     (f"{num1} es par")
+# elif num1%2!=0 and num2%2 == 0:
+#     print(f"{num2} es par")
+# else:
+#     print("ambos son impares")
+
+
+
+"-------------------hacer un programa que pida tre numeros y determine el mayor----------------------------"
+
+
+num1 = int(input("ingrese un numero: "))
+num2 = int(input("ingrese el segundo numero: "))
+num3 = int(input("ingrese el tercer numero: "))
+
+
+if num1 > num2 and num1 > num3:
+    print(f"el numero uno es mayorporque es {num1}")
+elif num2 > num1 and num2 > num3:
+    print (f"el numero dos es mayoro porque es {num2}")
+elif num3 > num1 and num3 > num2:
+    print(f"el numero 3 es mayor porque es {num3}")
+elif num1 == num2 and num2 == num3:
+    print("los tres on iguales ")

@@ -94,33 +94,73 @@
 (suma,resta,multiplicacion,division). el usuario debe especificar la operacion con el primer caracter del nombre de la operacion '''
 
 
-print ('''*******MENU**************
-       SUME ---  S
-       RESTA ----R
-       MUTIPLICACION O PRODUCTO ---M  o  P
-       DIVISION --- D''')
+# print ('''*******MENU**************
+#        SUME ---  S
+#        RESTA ----R
+#        MUTIPLICACION O PRODUCTO ---M  o  P
+#        DIVISION --- D''')
 
-letra = input("DIGITE LA OPERACION: ").upper()
+# letra = input("DIGITE LA OPERACION: ").upper()
 
-if letra == "S":
-    num1 = float(input("digita un numero: "))
-    num2 = float(input("digita otro numero: "))
-    suma = num1 + num2
-    print (f"\nsu resultado de la suma fue {suma}")
-elif letra == "R":
-    num1 = float(input("digita un numero: "))
-    num2 = float(input("digita otro numero: "))
-    resta = num1 - num2
-    print (f"\nsu resultado de la resta fue {resta}")
-elif letra == "M" or letra == "P":
-    num1 = float(input("digita un numero: "))
-    num2 = float(input("digita otro numero: "))
-    multiplicacion = num1 * num2
-    print (f"\nsu resultado de la multiplicacion fue {multiplicacion}")
-elif letra == "D":
-    num1 = float(input("digita un numero: "))
-    num2 = float(input("digita otro numero: "))
-    division = num1 / num2
-    print (f"\nsu resultado de la resta fue {division:.2f}")       #.2f indica que muestre solo dos decimales
+# if letra == "S":
+#     num1 = float(input("digita un numero: "))
+#     num2 = float(input("digita otro numero: "))
+#     suma = num1 + num2
+#     print (f"\nsu resultado de la suma fue {suma}")
+# elif letra == "R":
+#     num1 = float(input("digita un numero: "))
+#     num2 = float(input("digita otro numero: "))
+#     resta = num1 - num2
+#     print (f"\nsu resultado de la resta fue {resta}")
+# elif letra == "M" or letra == "P":
+#     num1 = float(input("digita un numero: "))
+#     num2 = float(input("digita otro numero: "))
+#     multiplicacion = num1 * num2
+#     print (f"\nsu resultado de la multiplicacion fue {multiplicacion}")
+# elif letra == "D":
+#     num1 = float(input("digita un numero: "))
+#     num2 = float(input("digita otro numero: "))
+#     division = num1 / num2
+#     print (f"\nsu resultado de la resta fue {division:.2f}")       #.2f indica que muestre solo dos decimales
+# else:
+#     print("esta no es una letra correcta ")
+
+
+
+'''hacer un programa que simule un cajero automatico con saldo inicial de $1000 y tendra el siguiente menu de opciones:
+
+
+1. ingrese dinero en la cuenta
+2. Retirar dinero de la cuenta 
+3. mostrar dinero disponible
+4. salir'''
+
+print('''\t*CAJERO BANCO FACIL*                            
+        1. ingrese dinero en la cuenta
+        2. Retirar dinero de la cuenta 
+        3. mostrar dinero disponible
+        4. salir\n''')                            # \t hace tabulacion en python
+
+saldo = (1000)
+
+opcion = float(input("ingrese la opcion deseada: "))
+
+if opcion == 1:
+    ingreso= float(input("cuanto dinero desea ingresa: "))
+    saldo += ingreso
+    print (f"su saldo total es de {saldo}")
+elif opcion == 2:
+    retiro = float(input("cunto dinero desea retirar: "))
+    if retiro <= 1000:
+        saldo -= retiro
+        print(f"su retiro fue de {retiro} \n su saldo actual es de {saldo}")
+    else:
+        print (" no cuenta con la cantidad para retirar")
+elif opcion == 3:
+    print(f"USTED CUENTA CON UN SALDO DE {saldo}")
+elif opcion== 4:
+    print("gracias por utilizar BANCO FACIL HASTA LUEGO")
 else:
-    print("esta no es una letra correcta ")
+    print("la opcion no esta disponible intentalo denuevo ")
+    
+    

@@ -28,6 +28,63 @@
 
 "------------------------------------------------------------------------------------------------------"
 
+'''escribe un programa para una empresa que tiene salas de juegos para todas las edades
+y quiere calcular de forma automatica el precio que debe cobrar a sus clientes por entrar. el programa debe pregutnar al usuario la edad del cliente
+y mostrar el precio de la entrada. si el cliente es menor de 4 años puede entrar gratis. si tiene entre 4 y 18 años debe pagar 5EUROS
+y si es mayor de 18 años debe pagar 18 euros'''
+
+edad = int(input("ingrese su edad: "))
+
+if edad == 0 and edad <= 4 :
+    print(f"usted tiene {edad} años y puede entrar gratis")
+elif edad > 4 and edad <18:
+    print(f"su edad es de {edad} años, debe pagar 5 EUROS en caja ")
+elif edad >= 18 and edad <100:
+    print(f"usted tiene {edad} años debe para 10 EUROS")
+else:
+    print(f"no puedes tener {edad} años")
+
+
+'''hacer un programa que pida al usuario su edad y muestre por pantalla si es mayor de edad o no '''
+
+# edad = int(input("ingrese su edad: "))
+
+# if edad >= 18 and edad < 100:
+#     print(f"usted es mayor de edad porque tienen {edad} años")
+# elif edad ==0 and edad <= 17:
+#     print(f"usted es menor de edad porque tiene {edad} años")
+# else:
+#     print("esa edad no existe")
+
+
+'''escribir un programa que almacene la cadena de caracter contraseñ en una variable, preguntar al usuario por la contraseña e imprimir si la contraseña
+es correcta o incorrecta, tener encuenta mayusculas y minusculas '''
+
+
+# contrasena = "S0lut3c2012"
+
+# ingreso = input("ingrese las credenciales del aplicatvio:  ")
+
+# if contrasena == ingreso :
+#     print("sus credenciales son crorrectas")
+# else:
+#     print("sus credenciales son incorrectas")
+
+
+
+'''escriba un programa que pida al usuario dos numeros y muestre por pantalla su division si su divisor es cero el progrqmq mostrara error '''
+
+# divisor = float(input("escriba el divisor: "))
+# dividendo = float(input("escriba el dividendo: "))
+
+# if divisor == 0:
+#     print (f"el divisor es {0} SYSTEN ERROR")
+# elif divisor >1:
+#     division = divisor/dividendo
+#     print(f"el resultado es {division: .2f}")
+
+
+
 '''hacer un programa que pida dos numeros y se de cuenta cual de ellos es par, o si ambos sos '''
 
 
@@ -43,7 +100,23 @@
 # else:
 #     print("ambos son impares")
 
+'''para tributar un determinado impuesto se debe ser mayor de 16 año y tener unos ingresos iguales o superiores a  1000 E mensuales.
+escribir un programa que pregunte al usuario su edad y sus ingresos mensules y muestre por pantalla si el usuario tiene que tributar o no'''
 
+
+
+# edad = int(input("ingrese su edad: "))
+# sueldo = float(input("ingrese su sueldo mensual: "))
+
+# if edad >= 16 and sueldo >= 1000:
+#     print("usted tiene que tributar")
+# elif edad >= 16 and  sueldo < 1000:
+#     print(f"usted no tributa, su ingreso es de {sueldo} no es el ingreso minimo para tributar ")
+# elif edad < 16 and sueldo >= 1000:
+#     print(f"usted no tributa,su edad es {edad} años no es mayor de edad aun ")
+# elif edad <16 and sueldo < 1000:
+#     print("usted no tiene quee tributar, su edad y su sueldo no son los requeridos ")
+        
 
 "-------------------hacer un programa que pida tre numeros y determine el mayor----------------------------"
 
@@ -135,32 +208,32 @@
 3. mostrar dinero disponible
 4. salir'''
 
-print('''\t*CAJERO BANCO FACIL*                            
-        1. ingrese dinero en la cuenta
-        2. Retirar dinero de la cuenta 
-        3. mostrar dinero disponible
-        4. salir\n''')                            # \t hace tabulacion en python
+# print('''\t*CAJERO BANCO FACIL*                            
+#         1. ingrese dinero en la cuenta
+#         2. Retirar dinero de la cuenta 
+#         3. mostrar dinero disponible
+#         4. salir\n''')                            # \t hace tabulacion en python
 
-saldo = (1000)
+# saldo = (1000)
 
-opcion = float(input("ingrese la opcion deseada: "))
+# opcion = float(input("ingrese la opcion deseada: "))
 
-if opcion == 1:
-    ingreso= float(input("cuanto dinero desea ingresa: "))
-    saldo += ingreso
-    print (f"su saldo total es de {saldo}")
-elif opcion == 2:
-    retiro = float(input("cunto dinero desea retirar: "))
-    if retiro <= 1000:
-        saldo -= retiro
-        print(f"su retiro fue de {retiro} \n su saldo actual es de {saldo}")
-    else:
-        print (" no cuenta con la cantidad para retirar")
-elif opcion == 3:
-    print(f"USTED CUENTA CON UN SALDO DE {saldo}")
-elif opcion== 4:
-    print("gracias por utilizar BANCO FACIL HASTA LUEGO")
-else:
-    print("la opcion no esta disponible intentalo denuevo ")
+# if opcion == 1:
+#     ingreso= float(input("cuanto dinero desea ingresa: "))
+#     saldo += ingreso
+#     print (f"su saldo total es de {saldo}")
+# elif opcion == 2:
+#     retiro = float(input("cunto dinero desea retirar: "))
+#     if retiro <= 1000:
+#         saldo -= retiro
+#         print(f"su retiro fue de {retiro} \n su saldo actual es de {saldo}")
+#     else:
+#         print (" no cuenta con la cantidad para retirar")
+# elif opcion == 3:
+#     print(f"USTED CUENTA CON UN SALDO DE {saldo}")
+# elif opcion== 4:
+#     print("gracias por utilizar BANCO FACIL HASTA LUEGO")
+# else:
+#     print("la opcion no esta disponible intentalo denuevo ")
     
     

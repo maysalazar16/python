@@ -82,9 +82,45 @@
 
 "---------paso 2------------"
 
-letra = input("digite un caracter: ").lower()              #el .lower() nos convierte el caracter a minuscula si estas escribiendo en mayuscula y recordar que el upeer() la convierte a mayuscula 
+# letra = input("digite un caracter: ").lower()              #el .lower() nos convierte el caracter a minuscula si estas escribiendo en mayuscula y recordar que el upeer() la convierte a mayuscula 
 
-if letra == "a" or letra =="e" or letra =="i" or letra =="o" or letra == "u":
-    print ("es vocal")
+# if letra == "a" or letra =="e" or letra =="i" or letra =="o" or letra == "u":
+#     print ("es vocal")
+# else:
+#     ("no es una vocal")
+
+
+'''---------construir un programa que simule el funcionamiento de una calculadora que puede realizar las cuatro operaciones aritmeticas basicas
+(suma,resta,multiplicacion,division). el usuario debe especificar la operacion con el primer caracter del nombre de la operacion '''
+
+
+print ('''*******MENU**************
+       SUME ---  S
+       RESTA ----R
+       MUTIPLICACION O PRODUCTO ---M  o  P
+       DIVISION --- D''')
+
+letra = input("DIGITE LA OPERACION: ").upper()
+
+if letra == "S":
+    num1 = float(input("digita un numero: "))
+    num2 = float(input("digita otro numero: "))
+    suma = num1 + num2
+    print (f"\nsu resultado de la suma fue {suma}")
+elif letra == "R":
+    num1 = float(input("digita un numero: "))
+    num2 = float(input("digita otro numero: "))
+    resta = num1 - num2
+    print (f"\nsu resultado de la resta fue {resta}")
+elif letra == "M" or letra == "P":
+    num1 = float(input("digita un numero: "))
+    num2 = float(input("digita otro numero: "))
+    multiplicacion = num1 * num2
+    print (f"\nsu resultado de la multiplicacion fue {multiplicacion}")
+elif letra == "D":
+    num1 = float(input("digita un numero: "))
+    num2 = float(input("digita otro numero: "))
+    division = num1 / num2
+    print (f"\nsu resultado de la resta fue {division:.2f}")       #.2f indica que muestre solo dos decimales
 else:
-    ("no es una vocal")
+    print("esta no es una letra correcta ")

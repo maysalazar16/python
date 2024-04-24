@@ -247,29 +247,29 @@ con los ingredientes disponibles para que elija. Solo se puede eligir un ingredi
 Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y todos los ingredientes que lleva.'''
 
 
-user = input("desea una piza  \nA) vegetariana o \nB) no vegetariana: ").upper()
+# user = input("desea una piza  \nA) vegetariana o \nB) no vegetariana: ").upper()
 
-if user == "A" :
-    print('''usted eligio vegetariana marque
-          A PIMENTO
-          B TOFU''')
-    opcion = input("seleccione el ingrediente: ").upper()
-    if opcion == "A":
-        print(" su piza vegetariana llevara PIMENTON, Y en 5 minutos sale ")
-    elif opcion == "B":
-         print(" su piza vegetariana llevara TOFU, Y en 5 minutos sale ")
-if user == "B":
-    print('''usted eligio pizza no vegetaria marque 
-          A PEPERONI
-          B JAMON Y SALMON''')
-    opcion2 = input("seleccione el ingrediente: ").upper()
-    if opcion2 == "A":
-        print("su pizza tomate y mozzarela llervara peperoni en 5 minutos la entregamos")
-    elif opcion2 == "B":
-         print("su pizza tomate y mozzarela llervara JAMON Y SALMON y en 5 minutos la entregamos")
-    else:
-        print("no es una opcion correcta")
-else:
-    print("no es una opcion correcta")
+# if user == "A" :
+#     print('''usted eligio vegetariana marque
+#           A PIMENTO
+#           B TOFU''')
+#     opcion = input("seleccione el ingrediente: ").upper()
+#     if opcion == "A":
+#         print(" su piza vegetariana llevara PIMENTON, Y en 5 minutos sale ")
+#     elif opcion == "B":
+#          print(" su piza vegetariana llevara TOFU, Y en 5 minutos sale ")
+# if user == "B":
+#     print('''usted eligio pizza no vegetaria marque 
+#           A PEPERONI
+#           B JAMON Y SALMON''')
+#     opcion2 = input("seleccione el ingrediente: ").upper()
+#     if opcion2 == "A":
+#         print("su pizza tomate y mozzarela llervara peperoni en 5 minutos la entregamos")
+#     elif opcion2 == "B":
+#          print("su pizza tomate y mozzarela llervara JAMON Y SALMON y en 5 minutos la entregamos")
+#     else:
+#         print("no es una opcion correcta")
+# else:
+#     print("no es una opcion correcta")
 
 

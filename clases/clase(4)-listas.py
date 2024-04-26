@@ -144,6 +144,20 @@ lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en list
 
 # print(lista)
 
+'''nos cambia el valor que tenemos en en indice 0 que en nuestro ejemplo es el 4 por el valor que queremos remplazarlo que en nuestro ejemplo seria 8'''
+
+# lista=[4,8,9,3,2,-7,-3]
+
+# lista[0] = 8
+# print(lista)
+
+'''cmbiar una lista a tupla recordar que las listas se manejan por corchetes [] y las tuplas por parentecis ()'''
+
+lista=[4,8,9,3,2,-7,-3]
+lista = tuple(lista)
+print(lista)
+
+
 '''////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
    .len = cuantos elemento tenemos en una lista ***print(len(lista))***
@@ -159,6 +173,8 @@ lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en list
    .reverse() = invierte la posicion de la lista atras adelante ***lista.reverse()***
    .sort() = ordena la lista de manera asendente ***lista.sort()***
    .sort(remove=True) ordena la lista de manera desendente ***lista.sort(reverse=True)***
+    lista[0] = 8  = nos modifica  el valor de indice 0 por el 8 
+    tuple(lista) = pasamos una lista a tupla
    
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'''
 

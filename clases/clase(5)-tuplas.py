@@ -4,16 +4,16 @@ no vamos a poder eliminar elementos de las tuplas, ni tampoco modificar los elem
 
 recordar que  las tuplas van en parentesis ()'''
 
-'''lo que podemos hacer con una TUPLA es buscar buscar un elemento print(tupla[3])'''
+'''son mucho mas rapidas a sus momentos de ejecucion y pues consumen mucho menos memoria que las listas '''
 
 
-'''              no podemos hacer                                                                         si podemos hacer 
+'''          ***NO PODEMOS HACER***                                                             ***SI PODEMOS HACER*** 
 .append() = agrega elementos al final de la lista                            print(tupla[1]) = podemos mostrar lo que hay en cada indice
 lista[0] = 8  = nos modifica el valor de indice                              print(tupla[1:]) = que nos muestre todos los elemento desde la posicion 1 en adelante
 tupla.pop() eliminar un indice de una tupla                                  print(4 in tupla) = busca si el valor de 4 esta en nuestra tupla
 tupla.pop() eliminar                                                        .index(()) = indica el indice donde esta dicho elemento ***print(tupla.index(5))***                            
 .                                                                           .count(()) = indica cuantas veces esta repetido un valor en la tupla ***print(tupla.count("salazar"))***
-'''
+.                                                                            list(tupla) combierte nuestra Tupla en una lista '''
 
 
 
@@ -28,7 +28,11 @@ tupla.pop() eliminar                                                        .ind
 
 '''tambien podemos transformar listas en tuplas y tuplas en listas '''
 
-tupla = (4,"hola",6.78,[1,2,3],4)
-lista= list(tupla)                  #la funcion list tranformara nuestra tupla en una lista 
+# tupla = (4,"hola",6.78,[1,2,3],4)
+# lista= list(tupla)                  #la funcion list tranformara nuestra tupla en una lista 
 
-print(lista)
+# print(lista)
+
+
+
+''''''

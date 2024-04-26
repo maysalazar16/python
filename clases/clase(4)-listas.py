@@ -153,9 +153,9 @@ lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en list
 
 '''cmbiar una lista a tupla recordar que las listas se manejan por corchetes [] y las tuplas por parentecis ()'''
 
-lista=[4,8,9,3,2,-7,-3]
-lista = tuple(lista)
-print(lista)
+# lista=[4,8,9,3,2,-7,-3]
+# lista = tuple(lista)
+# print(lista)
 
 
 '''////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -164,7 +164,7 @@ print(lista)
    .append() = agrega elementos al final de la lista ***lista.append(6)***
    .insert(,) = se usa para agregar elemento en un determinado lugar ****lista.insert(3,"hola may")****
    .extend([]) = este metodo se le pasa una lista y la concta con otra que ya tenemos **lista.extend([6,7,8]**)
-   .in = se utiliza para preguntarle a la sita si el valor esta **print("salazar" in lista)** 
+   .in = se utiliza para preguntarle a la lista si el valor esta **print("salazar" in lista)** 
    .index(()) = indica el indice donde esta dicho elemento ***print(lista.index(5))***
    .count(()) = indica cuantas veces esta repetido un valor en la lista ***print(lista.count("salazar"))***
    .pop() = elimina el ultimo indice de la lista si no colocamos nada en pel parentesis ***print(lista.pop())***

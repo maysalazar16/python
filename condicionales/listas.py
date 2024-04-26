@@ -12,6 +12,7 @@ podemos almcenar en una lista muchos datos  cadenas numeros enteros , subcadenas
 
 '''*******len******* esta funcion nos indica cuantos elementos tenemos en la lista print(len(lista)) en este ejemplo tenemos 9 elementos'''
 
+
 # lista = ["lunes","martes","miercoles","jueves","viernes",40,5.67,[1,2,3],True]
 
 # print(len(lista))  
@@ -50,6 +51,8 @@ podemos almcenar en una lista muchos datos  cadenas numeros enteros , subcadenas
 # print(lista3)
 
 
+
+
 '''*****in******* lo utilisamos para preguntar a la lista si elvalor esta o no y de esta manera nos dira true verdadero o false falso'''
 
 # lista = [1,2,3,4,5,"salazar"]
@@ -70,8 +73,12 @@ lista.index(5) aca nos diria en que posicion esta el numero 5 que en nuestro eje
 '''******count**** este metodo nos indica cuantos valores repetidos tenemos en suestra lista, recordar que nuestra lista puede tener infinidad de valores repetidos 
  '''
 
-# lista = [1,2,3,4,5,"salazar",1,2,3,4,5,6,"salazar"]
+# lista = [1,2,3,4,5,"salazar",1,2,3,4,5,6,lista=[4,8,9,3,2,-7,-3]
 
+# lista.sort()
+# # lista.sort(reverse=True)
+
+# print(lista)
 # print(lista.count("salazar"))
 # print(lista.count(2))
 
@@ -79,6 +86,8 @@ lista.index(5) aca nos diria en que posicion esta el numero 5 que en nuestro eje
 '''****.pop()***** esta funcion elimina los elemento de la lista
 lista.pop()  si no colocamos nada en parentesis eliminara el ultimo elemento que encuentre
 lista.pop(2)  si colocamos el indice que queremos eliminar eliminaria el numero 3 de nuestra ejemplo de lista '''
+
+
 
 # lista = [1,2,3,4,5,"salazar"]
 
@@ -90,6 +99,7 @@ lista.pop(2)  si colocamos el indice que queremos eliminar eliminaria el numero 
 
 '''*****lista.remove****** este metodo lo utilizamos cuando queremos eliminar un elemento de nuestra lista y no sabemos en que indice o posicion se encuentra
 lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en lista '''
+
 
 # lista = [1,2,3,4,5,"salazar"]
 
@@ -106,6 +116,7 @@ lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en list
 # print(lista)
 
 # print(lista.clear())
+
 
 '''****lista.reverse()*****  esto invierte la posicion de la lista, lo ultimo queda de primeras y lo primero de ultimo'''
 
@@ -126,9 +137,31 @@ lista.remove(4)  elmiminaria directamente el numero 4 de nuestro ejemplo en list
 ********lista.sort(reverse=True)los ordena de manera desendente de mayor a menos **************'''
 
 
-lista=[4,8,9,3,2,-7,-3]
+# lista=[4,8,9,3,2,-7,-3]
 
-lista.sort()
-lista.sort(reverse=True)
+# lista.sort()
+# # lista.sort(reverse=True)
 
-print(lista)
+# print(lista)
+
+'''////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+   .len = cuantos elemento tenemos en una lista ***print(len(lista))***
+   .append() = agrega elementos al final de la lista ***lista.append(6)***
+   .insert(,) = se usa para agregar elemento en un determinado lugar ****lista.insert(3,"hola may")****
+   .extend([]) = este metodo se le pasa una lista y la concta con otra que ya tenemos **lista.extend([6,7,8]**)
+   .in se utiliza para preguntarle a la sita si el valor esta **print("salazar" in lista)** 
+   .index(()) = indica el indice donde esta dicho elemento ***print(lista.index(5))***
+   .count(()) = indica cuantas veces esta repetido un valor en la lista ***print(lista.count("salazar"))***
+   .pop() = elimina el ultimo indice de la lista si no colocamos nada en pel parentesis ***print(lista.pop())***
+   .pop(3) = elimina el indice que este en la posicion tres de la ***lista print(lista.pop(3))***
+   .clear() = elimina la totalida de la lista ***lista.clear()***
+   .reverse() = invierte la posicion de la lista atras adelante ***lista.reverse()***
+   .sort() = ordena la lista de manera asendente ***lista.sort()***
+   .sort(remove=True) ordena la lista de manera desendente ***lista.sort(reverse=True)***
+   
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////'''
+
+
+
+

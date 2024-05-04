@@ -273,3 +273,99 @@ Al final se debe mostrar por pantalla si la pizza elegida es vegetariana o no y 
 #     print("no es una opcion correcta")
 
 
+'''la compañia multinacional de rappi, solicita un programa que determine los dias de vacaciones a los que tiene derecho un trabajador, tomando en cuenta las 
+siguientes caracteristicas
+
+existen tres departamentos
+1 departamento de atencion al clientte (clave 1)
+2 departamneto de logistica (clave 2)
+3 departamento de gerencia (clave 3)
+
+trabajadores con clave 1 (atencion al cliente)
+con 1 año de servicio recibe 6 dias de vacaciones
+con 2 a 6 años de servicio  recibe 14 dias de vacaciones
+con 7 años o mas recibe 20 dias de vacaciones
+
+trabajadores con clave 2 (logistica)
+con 1 año de servicio recibe 7 dias de vacaciones
+con 2 a 6 años de servicio  recibe 15 dias de vacaciones
+con 7 años o mas recibe 22 dias de vacaciones 
+
+trabajadores con clave 3 (gerencia)
+con 1 año de servicio recibe 10 dias de vacaciones
+con 2 a 6 años de servicio  recibe 20 dias de vacaciones
+con 7 años o mas recibe 30 dias de vacaciones 
+
+REQUISITOS 
+el sistema debe solicitar nombre ,clave del departamento, antiguedad del trabajador, desde teclado
+
+posteriormente el programa debe mostrar un mensaje en pantalla que contenga el nombre del trabajador y los dias de vacaciones a los que tiene derecho'''
+
+
+
+# print("******************************************")
+# print("* SISTEMA VACACIONAL DE  EMPRESA RAPPI *")
+# print("******************************************\n")
+
+# name = input("\nIndique su Nombre: ")
+# print("\n**********CLAVE DEL DEPARTAMENTO************")
+# print("\nclave1  ---> ATENCION AL CLIENTE, \nclave2 ---> LOGISTICA,\nclave3 ---> GERENCIA\n")
+# print("******************************************\n")
+# pasword = int(input(f"{name} \nindique clave del departamento al que corresponde: "))
+
+
+
+# if pasword == 1:
+#     print("\nBienvenido al departamento de 'ATENCION AL CLIENTE' ")
+#     años = float(input("\nindique años de servicio lleva en  la empresa: "))
+#     if años == 1 and años <= 2:
+#         print(f"el señor {name}, tiene derecho a 6 dias de vacaicones autorizados por el area de ATENCION AL CLIENTE ")
+#     elif años >=2 and años <= 6:
+#         print(f"el señor {name}, tiene derecho a 16 dias de vacaicones autorizados por el area de ATENCION AL CLIENTE  ")
+#     elif años >= 7:
+#         print(f"el señor {name}, tiene derecho a 20 dias de vacaicones autorizados por el area de ATENCION AL CLIENTE  ")
+#     else:
+#         print("aun no tiene derecho a vacaciones")
+
+# elif pasword == 2:
+#     print("Bienvenido al departamento de 'LOGISTICA ")
+#     años = float(input("\nindique años de servicio lleva en  la empresa: "))
+#     if años == 1:
+#         print(f"el señor {name}, tiene derecho a 7 dias de vacaicones autorizados por el area de LOGISTICA  ")
+#     elif años >=2 or años <= 6:
+#         print(f"el señor {name}, tiene derecho a 15 dias de vacaicones autorizados por el area de LOGISTICA   ")
+#     elif años >= 7:
+#         print(f"el señor {name}, tiene derecho a 22 dias de vacaicones autorizados por el area de LOGISTICA ")
+
+# elif pasword == 3:
+#     print("Bienvenido al departamento de 'GERENCIA' ")
+#     años = float(input("\nindique años de servicio lleva en  la empresa: "))
+#     if años == 1:
+#         print(f"el señor {name}, tiene derecho a 10 dias de vacaicones autorizados por el area de GERENCIA   ")
+#     elif años >=2 or años <= 6:
+#         print(f"el señor {name}, tiene derecho a 20 dias de vacaicones autorizados por el area de GERENCIA   ")
+#     elif años >= 7:
+#         print(f"el señor {name}, tiene derecho a 3O dias de vacaicones autorizados por el area de GERENCIA ")
+
+# else:
+#     print("la clave diligenciada no existe")
+
+
+
+'''crear un programa que solicite tres numeros enteros desde el teclado, posteriormente el programa debera determinar e indicar atraves de un mesnaje 
+en pantalla, cual de los tres numeros es el mas grande'''
+
+num1 = int(input("indique un numero: "))
+num2 = int(input("indique un segundo numero: "))
+num3 = int(input("indique un tercer numero: "))
+
+
+
+if num1 > 2 and num1 > num3:
+    print(f"numero {num1} es el mayor")
+elif num2 > num1 and num2 > num3:
+    print(f"el numero {num2} es mayor")
+elif num3 > num1 and num3 > num2:
+    print(f"numero {num3} es mayor") 
+elif num1 == num2 and num1 == 3:
+    print("los tres numeros son iguales ")

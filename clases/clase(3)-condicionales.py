@@ -329,7 +329,7 @@ posteriormente el programa debe mostrar un mensaje en pantalla que contenga el n
 
 # elif pasword == 2:
 #     print("Bienvenido al departamento de 'LOGISTICA ")
-#     años = float(input("\nindique años de servicio lleva en  la empresa: "))
+#     años = float(input("\nindique años de servicio que lleva en  la empresa: "))
 #     if años == 1:
 #         print(f"el señor {name}, tiene derecho a 7 dias de vacaicones autorizados por el area de LOGISTICA  ")
 #     elif años >=2 or años <= 6:
@@ -355,17 +355,24 @@ posteriormente el programa debe mostrar un mensaje en pantalla que contenga el n
 '''crear un programa que solicite tres numeros enteros desde el teclado, posteriormente el programa debera determinar e indicar atraves de un mesnaje 
 en pantalla, cual de los tres numeros es el mas grande'''
 
-num1 = int(input("indique un numero: "))
-num2 = int(input("indique un segundo numero: "))
-num3 = int(input("indique un tercer numero: "))
+# num1 = int(input("indique un numero: "))
+# num2 = int(input("indique un segundo numero: "))
+# num3 = int(input("indique un tercer numero: "))
 
 
 
-if num1 > 2 and num1 > num3:
-    print(f"numero {num1} es el mayor")
-elif num2 > num1 and num2 > num3:
-    print(f"el numero {num2} es mayor")
-elif num3 > num1 and num3 > num2:
-    print(f"numero {num3} es mayor") 
-elif num1 == num2 and num1 == 3:
-    print("los tres numeros son iguales ")
+# if num1 > num2 and num1 > num3:
+#     print(f"numero {num1} es el mayor")
+# elif num2 > num1 and num2 > num3:
+#     print(f"el numero {num2} es mayor")
+# elif num3 > num1 and num3 > num2:
+#     print(f"numero {num3} es mayor") 
+# elif num1 == num2 and num1 == 3:
+#     print("los tres numeros son iguales ")
+
+
+
+
+
+
+#hola mundo#

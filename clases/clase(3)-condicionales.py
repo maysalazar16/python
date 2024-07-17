@@ -1,3 +1,14 @@
+'''los operadores relacionales en python son 
+
+operador      nombre                   ejemplo             significado
+   <         menor que                  5<4          5 es menor que 4
+   >         mayor que                  7>4          7 es mayor que 4
+   ==        igual a                    4==4         4 es igual a 4
+   !=        No igual a (diferente )    4!=5         4 no es igual a 5
+   <=        Menor igual                6<=6         6 es menor que igual a 6
+   >=        Mayo o igual               9>=5         9 mayor que o igual a 5   '''
+
+
 '''las condicionasle son estructuras de control, nos ayuda para comparar valores tanto para verdaderos como para falsos, '''
 
 # numero = int(input("digite un numero: "))

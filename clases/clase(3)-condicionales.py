@@ -6,14 +6,24 @@ operador      nombre                   ejemplo             significado
    ==        igual a                    4==4         4 es igual a 4
    !=        No igual a (diferente )    4!=5         4 no es igual a 5
    <=        Menor igual                6<=6         6 es menor que igual a 6
-   >=        Mayo o igual               9>=5         9 mayor que o igual a 5   '''
+   >=        Mayo o igual               9>=5         9 mayor que o igual a 5  
+    
+     
+      
+operadores logicos 
+
+operador logico                  simbolo
+conjuncion                         and
+Disuncion                          or
+Negacion                           not '''
+
 
 
 '''las condicionasle son estructuras de control, nos ayuda para comparar valores tanto para verdaderos como para falsos, '''
 
 # numero = int(input("digite un numero: "))
 
-# if numero >0:
+# if numero #hola mundo#>0:
 #     print("el numero es positivo")     #a identacion son los espacios que maneja desde mi condicional hasta mi print
 # elif numero == 0:
 #     print("el numero es '0' ")
@@ -32,7 +42,7 @@ operador      nombre                   ejemplo             significado
 #     if edad>=18:
 #         print("es mayor de edad")
 
-# else:
+# else:#hola mundo#
 #     print("edad incorrecta ")
 
 
@@ -90,14 +100,7 @@ es correcta o incorrecta, tener encuenta mayusculas y minusculas '''
 
 # if divisor == 0:
 #     print (f"el divisor es {0} SYSTEN ERROR")
-# elif divisor >1:
-#     division = divisor/dividendo
-#     print(f"el resultado es {division: .2f}")
-
-
-
-'''hacer un programa que pida dos numeros y se de cuenta cual de ellos es par, o si ambos sos '''
-
+# elif divis#hola mundo#
 
 # num1 = int(input("ingrese un mumero: "))
 # num2 = int(input("ingrese un segundo numero: "))
@@ -158,7 +161,7 @@ escribir un programa que pregunte al usuario su edad y sus ingresos mensules y m
 # elif vocal == "i":
 #     print(f"su caracter es una vocal {vocal}")
 # elif vocal == "o":
-#     print(f"su caracter es una vocal {vocal}")
+#     print(#hola mundo#f"su caracter es una vocal {vocal}")
 # elif vocal == "u":
 #     print(f"su caracter es una vocal {vocal}")
 # else:
@@ -221,7 +224,7 @@ escribir un programa que pregunte al usuario su edad y sus ingresos mensules y m
 
 # print('''\t*CAJERO BANCO FACIL*                            
 #         1. ingrese dinero en la cuenta
-#         2. Retirar dinero de la cuenta 
+#         2.#hola mundo# Retirar dinero de la cuenta 
 #         3. mostrar dinero disponible
 #         4. salir\n''')                            # \t hace tabulacion en python
 
@@ -382,8 +385,3 @@ en pantalla, cual de los tres numeros es el mas grande'''
 #     print("los tres numeros son iguales ")
 
 
-
-
-
-
-#hola mundo#

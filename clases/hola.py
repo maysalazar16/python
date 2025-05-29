@@ -18,9 +18,13 @@
 
 #se termina la operacion matematica 
 
-div1 = int(input("ingresa el numero a divivir: " ))
-div2 = int(input("ingresa el segundo a dividir: " ))
+# div1 = int(input("ingresa el numero a divivir: " ))
+# div2 = int(input("ingresa el segundo a dividir: " ))
 
-result = div1/div2
+# result = div1/div2
 
-print(f"los numero ingresado fueron {div1} y {div2} y su multiplicacion da como resultado {result:.2f}")
+# print(f"los numero ingresado fueron {div1} y {div2} y su multiplicacion da como resultado {result:.2f}")
+
+
+
+# DURANTE EL DOCUMETO SE HAN TRABAJANDO FORMULAS BASICAS PARA LA MATEMATICA, VEREMOS CODIGO MAS COMPLETO AL PASAR LAS CLASES
